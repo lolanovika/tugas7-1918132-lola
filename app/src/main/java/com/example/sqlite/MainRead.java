@@ -17,7 +17,8 @@ public class MainRead extends AppCompatActivity implements
     private ListView mListView;
     private CustomListAdapter adapter_off;
     private MyDatabase db;
-    private List<Mahasiswa> ListMahasiswa = new ArrayList<Mahasiswa>();
+    private List<Mahasiswa> ListMahasiswa = new
+            ArrayList<Mahasiswa>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

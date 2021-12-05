@@ -39,7 +39,7 @@
             android:layout_below="@+id/text_nama"
             android:layout_toEndOf="@+id/iconid"
             android:layout_toRightOf="@+id/iconid"
-            android:text="KELAS"
+            android:text="UKURAN"
             android:textColor="@color/black" />
     </LinearLayout>
 </LinearLayout>

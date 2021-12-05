@@ -63,8 +63,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(tb_mahasiswa_nama, data.get_nama());
         values.put(tb_mahasiswa_kelas, data.get_kelas());
-        return db.update(tb_mahasiswa, values, tb_mahasiswa_id +
-                        " = ?",
+        return db.update(tb_mahasiswa, values, tb_mahasiswa_id + " = ?",
                 new String[]{String.valueOf((data.get_id()))});
     }
     public void DeleteMahasiswa(Mahasiswa data){

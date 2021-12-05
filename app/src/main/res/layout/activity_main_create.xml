@@ -24,7 +24,7 @@
         android:hint="Nama" />
     <EditText
         android:id="@+id/create_kelas"
-        android:hint="Kelas"
+        android:hint="Ukuran"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
